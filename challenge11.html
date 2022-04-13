@@ -1,0 +1,32 @@
+<!-- coding chalenge part 11:
+
+	consider you wnat to accept a 10 digit number from a user.
+	Use exception handling in a way that the number entered by the user is excatly 10 digit or throw you own exception.
+	-->
+
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<script type="text/javascript">
+		var number = "9876543210";
+
+		try{
+			if(number.length!=10){
+				throw("please enter a 10 digit number");
+			}
+			else{
+			document.write(number);
+			}
+		}catch(e){
+			alert("Error"+e);
+		}finally{
+			document.write("</br> This is always going to be executed" )
+		}	
+		
+	</script>
+</head>
+<body>
+
+</body>
+</html>

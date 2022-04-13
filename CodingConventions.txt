@@ -1,0 +1,39 @@
+1. Variable name: We use camelCase for identify names
+
+		firstName = "John";
+		lastName = "Doe";
+
+2. Space : Always put spaces around operators ( = + - * / ), and after commas:
+		let x = y + z;
+		const myArray = ["Volvo", "Saab", "Fiat"];
+
+		Code Indentation : Always use 2 spaces for indentation of code blocks:
+
+		function toCelsius(fahrenheit) {
+  		  return (5 / 9) * (fahrenheit - 32);
+		}
+		
+
+Note:- not use tab for indentataion. Different editors interpret tabs differently. 
+
+4. Statement Rules :- Always end a simple statement with a semicolon.
+
+		const cars = ["Volvo", "Saab", "Fiat"];
+
+		const person = {
+  		firstName: "John",
+  		lastName: "Doe",
+  		age: 50,
+  		eyeColor: "blue"
+		};
+
+
+5.Naming Conventions
+
+		-Variable and function names written as camelCase
+		-Global variables written in UPPERCASE (We don't, but it's quite common)
+		-Constants (like PI) written in UPPERCASE
+	
+Note. 
+	Hyphens can be mistaken as subtraction attempts. Hyphens are not allowed in JavaScript names.
+

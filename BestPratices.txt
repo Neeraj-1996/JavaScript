@@ -1,0 +1,5 @@
+Avoids global variable.
+Always declare local variable.
+Variable declarations shoud be on top.
+Initialize variables.
+Beware the automatic type conversion.
